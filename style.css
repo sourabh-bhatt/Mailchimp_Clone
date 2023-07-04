@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family:; */
+  }
+  
+  header {
+    padding: 10px;
+    height: 45px;
+    background-color: #241c15;
+    /* border: 3px solid black; */
+  }
+  
+  .global-header {
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+  }
+  
+  span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    width: 100%;
+    flex-wrap: wrap;
+    font-size: 14px;
+  }
+  
+  p {
+    margin-right: 10px;
+  }
+  
+  a {
+    color: black;
+    margin-right: 10px;
+    text-decoration: dashed;
+    border-bottom: 1px dashed #ffffff;
+  }
