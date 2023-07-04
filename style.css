@@ -107,3 +107,37 @@
   .logo img {
     margin-left: 5px;
   }
+
+   /* MAIN */
+   .main-left{
+    margin-top: 15%;
+    margin-left: 15%;
+  }
+  
+  button{
+    color: #000000;
+    border: 1px solid black;
+    padding: 10px;
+    margin: 30px;
+    margin-left: -2px;
+    border-radius: 20px;
+    background-color: yellow;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  
+  .main {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    max-width: 1200px;
+  }
+  
+  .main-left {
+    flex: 1;
+  }
