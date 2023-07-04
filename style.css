@@ -38,3 +38,72 @@
     text-decoration: dashed;
     border-bottom: 1px dashed #ffffff;
   }
+
+  nav {
+    border: 2px solid black;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 25px;
+    margin-top: 25px;
+  }
+  
+  .navbar ul {
+    list-style-type: none;
+    display: flex;
+    font-weight: 600;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  
+  .navbar ul li {
+    margin-right: 10px;
+  }
+  
+  .navbar ul li:last-child {
+    margin-right: 0;
+  }
+  
+  .navbar-center {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .nav-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .navbar-right {
+    display: flex;
+    align-items: center;
+  }
+
+  
+  .login-button,
+  .signup-button {
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 20px;
+    text-decoration: none;
+  }
+  
+  .login-button {
+    background-color: #ffffff;
+    color: #000000;
+    border: 1px solid black;
+  }
+  
+  .signup-button {
+    background-color: #ffd700;
+    border: 1px solid black;
+    color: #000000;
+  }
+  
+  .logo img {
+    margin-left: 5px;
+  }
