@@ -39,9 +39,6 @@
     border-bottom: 1px dashed #ffffff;
   }
 
-  nav {
-    border: 2px solid black;
-  }
   
   .navbar {
     display: flex;
