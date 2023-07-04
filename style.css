@@ -157,3 +157,9 @@ main {
     width: 900px;
   }
   
+  
+  footer {
+    padding-top: 10px;
+    height: 45px;
+    background-color: #241c15;
+  }
